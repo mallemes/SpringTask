@@ -12,10 +12,10 @@ public class DBManager {
     static {
         students.add(new Student(1L, "Elon", "Musk", 88, "B"));
         students.add(new Student(2L, "John", "Snow", 91, "A"));
-        students.add(new Student(3L, "Cristiano", "Potter", 48, "F"));
+        students.add(new Student(3L, "Harry", "Potter", 48, "F"));
         students.add(new Student(4L, "Sirius", "Blake", 65, "C"));
         students.add(new Student(5L, "Barak", "Obama", 82, "B"));
-        students.add(new Student(6L, "Jack", "Putter", 52, "D"));
+        students.add(new Student(6L, "Jack", "Charlie", 52, "D"));
     }
 
     public static void addStudent(Student student) {

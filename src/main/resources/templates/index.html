@@ -4,7 +4,7 @@
 
 <div layout:fragment="content" class="mt-5">
     <table class="table">
-        <thead>
+        <thead class="thead-dark">
         <tr>
             <th scope="col">ID</th>
             <th scope="col">NAME</th>
@@ -14,7 +14,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="student : ${students}">
+        <tr th:each="student : ${students}" th:style="${student.exam < 50?'color: red':''}">
             <th scope="row" th:text="${student.id}" ></th>
             <td th:text="${student.name}"></td>
             <td th:text="${student.surname}"></td>
